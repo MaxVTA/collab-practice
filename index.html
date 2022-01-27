@@ -1,18 +1,45 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+    <title>Collab Practice</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <nav class="nav col">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Footer</a>
+      </li>
+    </nav>
+   
+    <div class="container-fluid justify-content-around bg-body">
+      <div class="row">
+        <div class="col my-grad-1 text-center text-light"> 
+          Column
+        </div>
+        <div class="col my-grad-2 text-center text-light">
+          Column
+        </div>
+      </div>
+    </div>
+
+    <footer class="row bg-dark text-white col text-center fixed-bottom">
+      <p>&copy;Max Agress Inc.</p>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
